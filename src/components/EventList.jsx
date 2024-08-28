@@ -9,6 +9,8 @@ const EventList = () => {
   const navigate = useNavigate();
 
   const { sortedData, requestSort, sortConfig } = useSort(events, "name");
+  const sortIcon = (key) =>
+    sortConfig.key === key && sortConfig.direction === "asc" ? "↑" : "↓";
 
   const handleCreateEvent = () => {
     navigate("/create");
@@ -36,22 +38,14 @@ const EventList = () => {
                 onClick={() => requestSort("name")}
               >
                 Event Name{" "}
-                {sortConfig.key === "name"
-                  ? sortConfig.direction === "asc"
-                    ? "↑"
-                    : "↓"
-                  : null}
+                {sortIcon("name")}
               </th>
               <th
                 className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider cursor-pointer"
                 onClick={() => requestSort("date")}
               >
                 Date{" "}
-                {sortConfig.key === "date"
-                  ? sortConfig.direction === "asc"
-                    ? "↑"
-                    : "↓"
-                  : null}
+                {sortIcon("date")}
               </th>
               <th className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
                 Tickets
