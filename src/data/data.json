@@ -1,0 +1,99 @@
+{
+    "events": [
+      {
+        "id": 1,
+        "name": "Rock Concert",
+        "description": "A live rock music concert featuring top bands.",
+        "date": "2024-09-10",
+        "location": "Madison Square Garden, NY",
+        "category": "Music",
+        "tickets": [
+          {
+            "id": 1,
+            "type": "VIP",
+            "quantity": 50,
+            "price": 150
+          },
+          {
+            "id": 2,
+            "type": "General Admission",
+            "quantity": 500,
+            "price": 50
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Tech Conference 2024",
+        "description": "Annual technology conference with speakers from around the world.",
+        "date": "2024-08-12",
+        "location": "Moscone Center, San Francisco, CA",
+        "category": "Technology",
+        "tickets": [
+          {
+            "id": 3,
+            "type": "Early Bird",
+            "quantity": 100,
+            "price": 200
+          },
+          {
+            "id": 4,
+            "type": "Standard",
+            "quantity": 300,
+            "price": 300
+          },
+          {
+            "id": 5,
+            "type": "VIP",
+            "quantity": 50,
+            "price": 500
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Art Exhibition",
+        "description": "An exhibition showcasing contemporary art from various artists.",
+        "date": "2024-08-10",
+        "location": "Art Institute of Chicago, IL",
+        "category": "Art",
+        "tickets": [
+          {
+            "id": 6,
+            "type": "General Admission",
+            "quantity": 200,
+            "price": 25
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Basketball Game",
+        "description": "NBA game between the Lakers and the Warriors.",
+        "date": "2024-12-12",
+        "location": "Staples Center, Los Angeles, CA",
+        "category": "Sports",
+        "tickets": [
+          {
+            "id": 7,
+            "type": "Courtside",
+            "quantity": 30,
+            "price": 1000
+          },
+          {
+            "id": 8,
+            "type": "Lower Level",
+            "quantity": 200,
+            "price": 300
+          },
+          {
+            "id": 9,
+            "type": "Upper Level",
+            "quantity": 500,
+            "price": 100
+          }
+        ]
+      }
+    ]
+  }
+  
